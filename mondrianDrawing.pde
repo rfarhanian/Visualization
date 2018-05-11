@@ -19,10 +19,13 @@ PShape centerRedBox;
 PShape topBlackBox;
 PShape bottomBlackBox;
 PShape topRightYellowBox;
+PShape bottomRightYellowBox;
+PShape bottomBlueBox;
+PShape bottomRightRedBox;
 
 void setup() {
   background(255, 255, 255);
-  loadMondrianImage();
+  //loadMondrianImage();
   size(746, 747);
   buildVerticalLines();  
   buildHorizontalLines();
@@ -59,6 +62,9 @@ void buildBoxes() {
   topBlackBox = buildRectangle(0, 0, 170, 72, color(0, 0, 0));
   bottomBlackBox = buildRectangle(0, 0, 187, 62, color(0, 0, 0));
   topRightYellowBox = buildRectangle(0, 0, 167, 69, color(243, 197, 0));
+  bottomRightYellowBox = buildRectangle(0, 0, 167, 213, color(243, 197, 0));
+  bottomBlueBox = buildRectangle(0, 0, 167, 215, color(34, 13, 196));
+  bottomRightRedBox = buildRectangle(0, 0, 46, 161, color(207, 0, 0));
 }
 
 void drawVerticalLines() {
@@ -85,9 +91,10 @@ void drawBoxes() {
   shape(topBlackBox, 106, 487);
   shape(bottomBlackBox, 297, 641);
   shape(topRightYellowBox, 505, 6);
+  shape(bottomRightYellowBox, 505, 93);
+  shape(bottomBlueBox, 505, 487);
+  shape(bottomRightRedBox, 695, 582);
 }
-
-
 
 PShape buildRectangle(int a, int b, int c, int d, color colour) {
   PShape rectangle = createShape(RECT, a, b, c, d);

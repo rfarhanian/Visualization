@@ -18,6 +18,7 @@ PShape firstBoxOnTheBottomLeft;
 PShape centerRedBox;
 PShape topBlackBox;
 PShape bottomBlackBox;
+PShape topRightYellowBox;
 
 void setup() {
   background(255, 255, 255);
@@ -58,6 +59,7 @@ void buildBoxes() {
   centerRedBox = buildRectangle(0, 0, 378, 378, color(198, 0, 0));
   topBlackBox = buildRectangle(0, 0, 170, 72, color(0, 0, 0));
   bottomBlackBox = buildRectangle(0, 0, 187, 62, color(0, 0, 0));
+  topRightYellowBox = buildRectangle(0, 0, 167, 69, color(243, 197, 0));
 }
 
 void drawVerticalLines() {
@@ -83,6 +85,7 @@ void drawBoxes() {
   shape(centerRedBox, 106, 93);
   shape(topBlackBox, 106, 487);
   shape(bottomBlackBox, 297, 641);
+  shape(topRightYellowBox, 505, 6);
 }
 
 

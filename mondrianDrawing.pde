@@ -1,4 +1,4 @@
-color black = color(0,0,0);
+color black = color(0, 0, 0);
 
 PShape firstTopHorizontalLine;
 PShape secondHorizontalLine;
@@ -22,7 +22,7 @@ PShape topRightYellowBox;
 
 void setup() {
   background(255, 255, 255);
-  //loadMondrianImage();
+  loadMondrianImage();
   size(746, 747);
   buildVerticalLines();  
   buildHorizontalLines();
@@ -32,7 +32,7 @@ void setup() {
 void draw() {
   drawVerticalLines();
   drawHoriztonalLines();
-  drawBoxes(); 
+  drawBoxes();
 }
 
 
@@ -43,15 +43,14 @@ void buildVerticalLines() {
   fourthLeftVerticalLine = buildRectangle(0, 0, 21, 700, black);
   fifthLeftVerticalLine = buildRectangle(0, 0, 21, 142, black);
   sixthLeftVerticalLine = buildRectangle(0, 0, 23, 737, black);
-  
 }
 void buildHorizontalLines() {
-   firstTopHorizontalLine = buildRectangle(0, 0, 668, 18, black);
-   secondHorizontalLine = buildRectangle(0, 0, 168, 24, black);
-   thirdHorizontalLine  = buildRectangle(0, 0, 606, 16, black);
-   fourthHorizontalLine = buildRectangle(0, 0, 736, 23, black);
-   fifthHorizontalLine = buildRectangle(0, 0, 414, 17, black);
-   sixthHorizontalLine = buildRectangle(0, 0, 419, 21, black);
+  firstTopHorizontalLine = buildRectangle(0, 0, 668, 18, black);
+  secondHorizontalLine = buildRectangle(0, 0, 168, 24, black);
+  thirdHorizontalLine  = buildRectangle(0, 0, 606, 16, black);
+  fourthHorizontalLine = buildRectangle(0, 0, 736, 23, black);
+  fifthHorizontalLine = buildRectangle(0, 0, 414, 17, black);
+  sixthHorizontalLine = buildRectangle(0, 0, 419, 21, black);
 }
 
 void buildBoxes() {
@@ -63,21 +62,21 @@ void buildBoxes() {
 }
 
 void drawVerticalLines() {
-   shape(firstLeftVerticalLine, 89, 93);
-   shape(secondLeftVerticalLine, 172, 7);
-   shape(thirdLeftVerticalLine, 276, 471);
-   shape(fourthLeftVerticalLine, 484, 6);
-   shape(fifthLeftVerticalLine, 589, 329);
-   shape(sixthLeftVerticalLine, 672, 6);
+  shape(firstLeftVerticalLine, 89, 93);
+  shape(secondLeftVerticalLine, 172, 7);
+  shape(thirdLeftVerticalLine, 276, 471);
+  shape(fourthLeftVerticalLine, 484, 6);
+  shape(fifthLeftVerticalLine, 589, 329);
+  shape(sixthLeftVerticalLine, 672, 6);
 }
 
 void drawHoriztonalLines() {
-   shape(firstTopHorizontalLine, 5, 75);
-   shape(secondHorizontalLine, 505, 306);
-   shape(thirdHorizontalLine, 89, 471);
-   shape(fourthHorizontalLine, 5, 559);
-   shape(fifthHorizontalLine, 90, 643);
-   shape(sixthHorizontalLine, 276, 702); 
+  shape(firstTopHorizontalLine, 5, 75);
+  shape(secondHorizontalLine, 505, 306);
+  shape(thirdHorizontalLine, 89, 471);
+  shape(fourthHorizontalLine, 5, 559);
+  shape(fifthHorizontalLine, 90, 643);
+  shape(sixthHorizontalLine, 276, 702);
 }
 
 void drawBoxes() {
@@ -100,5 +99,5 @@ PShape buildRectangle(int a, int b, int c, int d, color colour) {
 void loadMondrianImage() {
   PImage img;
   img = loadImage("data/Piet_Mondrian_Bauhaus.jpg");
-  image(img, 0, 0);   
+  image(img, 0, 0);
 }

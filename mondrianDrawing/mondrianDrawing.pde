@@ -20,16 +20,22 @@ PShape topBlackBox;
 PShape bottomBlackBox;
 PShape topRightYellowBox;
 
+void settings() {
+  size(746, 747);
+}
+
 void setup() {
+ 
   background(255, 255, 255);
   //loadMondrianImage();
-  size(746, 747);
+  
   buildVerticalLines();  
   buildHorizontalLines();
   buildBoxes();
 }
 
 void draw() {
+  frame.setTitle(mouseX + ", " + mouseY);
   drawVerticalLines();
   drawHoriztonalLines();
   drawBoxes(); 

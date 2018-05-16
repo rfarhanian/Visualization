@@ -1,7 +1,7 @@
 # Visualization
 MSDS Visualization Homeworks
 
-This is the first homework. A programatic approach to draw <a href="https://en.wikipedia.org/wiki/Composition_with_Red_Blue_and_Yellow">Piet Mondrian painting</a>.
+This is the first homework. A programatic approach to draw <a href="https://en.wikipedia.org/wiki/Composition_with_Red_Blue_and_Yellow">Piet Mondrian painting</a>. I love this painting. There is something in the simplicity of straight lines and colors that fascinates me.  
 
 I initially created all vertical and horizontal bars with a pure white background.
 Then I created some boxes (recentangles) with specific colors among the bars.

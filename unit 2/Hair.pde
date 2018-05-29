@@ -1,0 +1,135 @@
+    void hair(int offset){
+
+        fill(0,50);
+        stroke(0,255);
+        strokeWeight(2);
+        beginShape();
+        curveVertex(Math.abs(offset+ 326), 500);
+        curveVertex(Math.abs(offset+ 326), 500);
+        curveVertex(Math.abs(offset+ 343),  498);
+
+        curveVertex(Math.abs(offset+ 359),  456);
+        curveVertex(Math.abs(offset+ 342),  470);
+        curveVertex(Math.abs(offset+ 350),  423);
+        curveVertex(Math.abs(offset+ 331),  328);
+        curveVertex(Math.abs(offset+ 335),  271);
+        curveVertex(Math.abs(offset+ 325), 235);
+        curveVertex(Math.abs(offset+ 326), 220);
+        curveVertex(Math.abs(offset+ 333), 206);
+        curveVertex(Math.abs(offset+ 341), 167);
+        curveVertex(Math.abs(offset+ 344), 160);
+        curveVertex(Math.abs(offset+ 354), 157);
+        curveVertex(Math.abs(offset+ 355), 148);
+        curveVertex(Math.abs(offset+ 385), 135);
+        curveVertex(Math.abs(offset+ 398), 114);
+        curveVertex(Math.abs(offset+ 407), 115);
+        curveVertex(Math.abs(offset+ 416), 113);
+        curveVertex(Math.abs(offset+ 424), 100);
+        curveVertex(Math.abs(offset+ 432), 95);
+        curveVertex(Math.abs(offset+ 457), 92);
+        curveVertex(Math.abs(offset+ 470), 85);
+        curveVertex(Math.abs(offset+ 493), 81);
+        curveVertex(Math.abs(offset+ 529), 82);
+        curveVertex(Math.abs(offset+ 550), 88);
+        curveVertex(Math.abs(offset+ 566), 101);
+        curveVertex(Math.abs(offset+ 566), 117);
+        curveVertex(Math.abs(offset+ 580), 121);
+        curveVertex(Math.abs(offset+ 604), 146);
+        curveVertex(Math.abs(offset+ 616), 174);
+        curveVertex(Math.abs(offset+ 628), 194);
+        curveVertex(Math.abs(offset+ 646), 246);
+        curveVertex(Math.abs(offset+ 682),321);
+        curveVertex(Math.abs(offset+ 678),408);
+        curveVertex(Math.abs(offset+ 672),368);
+        curveVertex(Math.abs(offset+ 659),339);
+        curveVertex(Math.abs(offset+ 665),394);
+        curveVertex(Math.abs(offset+ 657),450);
+        curveVertex(Math.abs(offset+ 642),500);
+        curveVertex(Math.abs(offset+ 513),500);
+        curveVertex(Math.abs(offset+ 534),500);
+        curveVertex(Math.abs(offset+ 561),439);
+        curveVertex(Math.abs(offset+ 569),421);
+        curveVertex(Math.abs(offset+ 576),407);
+        curveVertex(Math.abs(offset+ 574),395);
+        curveVertex(Math.abs(offset+ 572),411);  // new
+        curveVertex(Math.abs(offset+ 573),411);  // new
+        curveVertex(Math.abs(offset+ 580),336);
+        curveVertex(Math.abs(offset+ 578),277);
+        curveVertex(Math.abs(offset+ 582),253);
+        curveVertex(Math.abs(offset+ 573),249);
+        curveVertex(Math.abs(offset+ 548),201);
+        curveVertex(Math.abs(offset+ 530),178);
+        curveVertex(Math.abs(offset+ 489),160);
+        curveVertex(Math.abs(offset+ 482),161);
+        curveVertex(Math.abs(offset+ 444),167);
+        curveVertex(Math.abs(offset+ 437),169);
+        curveVertex(Math.abs(offset+ 408),184);
+        curveVertex(Math.abs(offset+ 378),233);
+        curveVertex(Math.abs(offset+ 372),248);
+        curveVertex(Math.abs(offset+ 355),248);
+        curveVertex(Math.abs(offset+ 349),267);
+        curveVertex(Math.abs(offset+ 349),273);
+        curveVertex(Math.abs(offset+ 349),304);
+        curveVertex(Math.abs(offset+ 355),325);
+        curveVertex(Math.abs(offset+ 355),348);
+        curveVertex(Math.abs(offset+ 356),368);
+        curveVertex(Math.abs(offset+ 360),396);
+        curveVertex(Math.abs(offset+ 375),433);
+        curveVertex(Math.abs(offset+ 383),447);
+        curveVertex(Math.abs(offset+ 409),500);
+        curveVertex(Math.abs(offset+ 409),500);
+        endShape();
+
+//free hair strands
+        stroke(0,50);
+        strokeWeight(2);
+        beginShape();
+        curveVertex(Math.abs(offset+ 625), 199);
+        curveVertex(Math.abs(offset+ 625), 199);
+        curveVertex(Math.abs(offset+ 661), 264);
+        curveVertex(Math.abs(offset+ 676), 286);
+        curveVertex(Math.abs(offset+ 696), 329);
+        curveVertex(Math.abs(offset+ 701), 348);
+        curveVertex(Math.abs(offset+ 705), 370);
+        curveVertex(Math.abs(offset+ 705), 370);
+        endShape();
+
+        stroke(0,255);
+        noFill();
+        strokeWeight(0.5);
+        beginShape();
+        curveVertex(Math.abs(offset+ 433), 170);
+        curveVertex(Math.abs(offset+ 433), 170);
+        curveVertex(Math.abs(offset+ 457), 180);
+        curveVertex(Math.abs(offset+ 456), 203);
+        curveVertex(Math.abs(offset+ 468), 226);
+        curveVertex(Math.abs(offset+ 468), 226);
+        endShape();
+        beginShape();
+        curveVertex(Math.abs(offset+ 430), 172);
+        curveVertex(Math.abs(offset+ 430), 172);
+        curveVertex(Math.abs(offset+ 443), 180);
+        curveVertex(Math.abs(offset+ 446), 203);
+        curveVertex(Math.abs(offset+ 458), 226);
+        curveVertex(Math.abs(offset+ 458), 226);
+        endShape();
+
+        beginShape();
+        curveVertex(Math.abs(offset+ 420), 172);
+        curveVertex(Math.abs(offset+ 420), 172);
+        curveVertex(Math.abs(offset+ 433), 180);
+        curveVertex(Math.abs(offset+ 436), 213);
+        curveVertex(Math.abs(offset+ 448), 236);
+        curveVertex(Math.abs(offset+ 448), 236);
+        endShape();
+
+        beginShape();
+        curveVertex(Math.abs(offset+ 418), 172);
+        curveVertex(Math.abs(offset+ 418), 172);
+        curveVertex(Math.abs(offset+ 430), 180);
+        curveVertex(Math.abs(offset+ 433), 213);
+        curveVertex(Math.abs(offset+ 445), 236);
+        curveVertex(Math.abs(offset+ 445), 236);
+        endShape();
+
+    }

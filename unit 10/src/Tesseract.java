@@ -1,4 +1,3 @@
-package ui.applet;
 
 import processing.core.PApplet;
 
